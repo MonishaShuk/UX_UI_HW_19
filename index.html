@@ -6,16 +6,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="css/style.css" />
     <title>Monisha Portfolio</title>
-    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
-</head>
+   </head>
+
 <body>
+
     <header >
-      <div class="toggle-btn"> 
+      <div id="toggle_menu" class="toggle-btn"> 
             <span></span>
             <span></span>
             <span></span>
         </div>
-    
+        <div id="menu_close"class="toggle-btn" > 
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
       
         <div class="logo">
             <div><img src="img/MS_Logo.svg"></div>
@@ -23,13 +28,21 @@
     <nav class="nav_item">
         
          <ul>
-            <li class="nav_link_active"><a href="#">Work</a></li>
-            <li class="nav_link" ><a href="AboutMe.html">About</a></li>
-            <li class="nav_link"><a href="">Contact</a></li>
-            <li class="nav_link"><a href="">Resume</a></li>
+            <li id="menu1" class="nav_link_active"><a href="#">Work</a></li>
+            <li id="menu2" class="nav_link" ><a href="AboutMe.html">About</a></li>
+            <li id="menu3" class="nav_link"><a href="">Contact</a></li>
+            <li id="menu4" class="nav_link"><a href="">Resume</a></li>
          </ul>
     </nav>
     </header>
+    <div id="menu_id"class="menu">
+        <ul>
+            <li ><a href="index.html">Work</a></li>
+            <li ><a href="AboutMe.html">About</a></li>
+            <li ><a href="">Contact</a></li>
+            <li ><a href="">Resume</a></li>
+         </ul>
+         </div>
   
     <div class="herosection">
         <p class="hello"> Hello!</p>
@@ -37,10 +50,11 @@
         <p class="hero_text">UX/UI designer who is passionate about designing simple yet innovative experiences.</p>
         <p class="hero_text">My goal is to create human-centered designs that can improve our daily lives and enhance user experience and ensure seamless navigation.</p>
         <div class="left_button">
-            <button> Download Resume</button> 
+            <button class="btn_resume"> Download Resume</button> 
        </div>
-       <div class="work"> Some of my Work! <img src="img/down_arrow.svg"></div>
+       <div id="showWork" class="work"> Some of my Work! <img src="img/down_arrow.svg"></div>
        <!--<div style="width:20px; height:20px"><img src="img/down-arrow.gif"></div> -->
+       
     </div>
 
      
@@ -48,7 +62,7 @@
    
     <div class="wrapper" >
 
-        <div class="grid-item_1">
+        <div id="work1" class="grid-item_1">
             <div class="grid_case1" ></div>
         <div class="grid-item nested casestudy1">
             <div><h5>Project Duration - 3 weeks</h5></div>
@@ -105,5 +119,9 @@
     </div>
     
     </footer>
+
+    <script src="https://code.jquery.com/jquery-3.7.0.js"></script>
+    <script src="js/index.js"></script>
+
 </body>
 </html>
