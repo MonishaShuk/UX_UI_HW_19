@@ -1,0 +1,130 @@
+.nav{
+    background-color: #EFF2F5;
+}
+
+.jumbotron{
+    background-color: #EFF2F5;
+   padding-left: 20%;
+   padding-right:20% ;    
+}
+
+.lead{
+    font-weight: 500;
+}
+
+.card-body{
+   background-color:  rgba(77, 177, 183, 0.2);
+}
+
+.card{
+    border:none ;
+}
+.card-BG{
+    background-color: #ffffff;
+}
+
+.card-text{
+    font-size: 1.25rem;
+}
+.w-75{
+    margin:auto;
+}
+.w-90{
+    width: 90%;
+    margin:auto;
+}
+
+ .toppad{
+    margin-top:3%;
+}
+
+
+.main-headings{
+    width: 90%;
+    margin:auto;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+.display-4{
+    color:#EF5046;
+    font-weight: 600;
+}
+.title{
+    padding-bottom: 60px;
+
+}
+
+.para_title{
+   color:#EF5046;
+}
+/*FOOTER*/
+.footer_my{ 
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color:#ffffff;
+    padding-top:15px;
+    padding-right: 10px;
+   }
+
+.footer{
+   vertical-align: bottom; 
+}
+.footer_name {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    color:#ffffff;
+    border-right:2px solid #ffffff;
+    height: 40px;
+    vertical-align: middle;
+    padding-right: 50px; 
+}
+
+.footer_copyright{
+    font-size: 12px;
+    color: #fff;
+    font-weight: 100;
+    line-height: 20px;
+}
+
+.footer_text{
+    display: flex;
+    flex-direction: column;  
+}
+
+.footer_details{
+font-weight: 600;
+  font-size: 16px;
+  color: #ffffff;
+  padding-left: 20px;
+}
+
+.left{
+    display: flex;
+    align-items: center;
+   
+}
+.right{
+    display: flex;
+    flex-direction: row;   
+   
+}
+.para_details{
+    padding-left: 20px;
+    color: #f1f1f1;
+    font-size: 14px;
+    line-height: 26px;
+}
+
+.footer_contact{
+    font-size: 14px;
+    color: #ffffff;
+}
+
+.footer_contact_details{
+    line-height: 26px;
+    color: #f1f1f1;
+    font-size: 12px;
+}
